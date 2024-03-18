@@ -1,0 +1,92 @@
+header{
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+h1{
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-image: url(../img/bgreal.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+#map{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex : 1;
+}
+.cell{
+    border: solid rgb(0, 0, 0) 2px;
+    flex : 1;
+}
+.row{
+    cursor: pointer;
+}
+.cell{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
+#replay{
+    cursor: pointer;
+    border: solid black 1px;
+    width: 120px;
+}
+#replay:hover{
+    color: green;
+}
+#cpuC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#on{
+    color: green;
+    border-radius: 200px;
+    padding: 5px;
+}
+#off{
+    color: red;
+    border-radius: 200px;
+    padding: 5px;
+}
+#cpuMode{
+    border-radius: 200px;
+    padding: 5px;
+}
+#gameOver-container{
+    background-color: white;
+    border: solid black 1px;
+    font-size: 22px;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    border-radius: 100px;
+}
+#replay-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
