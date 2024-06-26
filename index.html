@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Morpion</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -11,34 +11,27 @@
         <h1>MORPION</h1>
     </header>
     <main>
-    <div>                                                                                   
         <div id="gameOver-container" class="hidden">
             <div id="gameOver" class="hidden">
                 <h2 id="result"></h2>
-                <p>Appuyez sur le boutton rejouer si vous souhaitez retentez votre chance !</p>
+                <p>Appuyez sur le bouton rejouer si vous souhaitez retenter votre chance !</p>
                 <div id="replay-container">
-                    <p id="replay">REJOUER</p>
+                    <button id="replay">REJOUER</button>
                 </div>
             </div>
         </div>
-    </div>
-        <div id="game-container" >
+        <div id="game-container">
             <div id="cpuC">
                 <button id="cpuMode" type="click">CPU MODE</button>
                 <button id="on" class="hidden">ON</button>
                 <button id="off" class="hidden">OFF</button>
             </div>
-
             <div id="gameZone">
-                <div id="map">
-                </div>
+                <div id="map"></div>
             </div>
         </div>
-    </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
